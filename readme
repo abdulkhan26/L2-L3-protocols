@@ -1,0 +1,6 @@
+python tcp_server.py --host localhost --port 8888
+python tcp_client.py --host localhost --port 8888 --message "Hello, server!"
+python tcp-throughput.py --mode server --host localhost --port 8889
+python tcp-throughput.py --mode client --host localhost --port 8889 --data-size 20
+python error.py --host localhost --port 8888 --message "Hello from client" --latency 100 --attempts 5
+
