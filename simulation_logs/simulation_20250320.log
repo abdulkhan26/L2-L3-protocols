@@ -1,0 +1,19 @@
+[2025-03-20 11:04:36.262] [ERROR] Connection failed: [Errno -2] Name or service not known
+[2025-03-20 11:04:46.827] [CONNECT] Connected to server
+[2025-03-20 11:04:46.928] [SEND] Sent message: Hello, Server!
+[2025-03-20 11:04:47.028] [RECEIVE] Received response: Hello, Server!
+[2025-03-20 11:05:06.445] [SIMULATION] Message order randomized for reordering simulation
+[2025-03-20 11:05:06.446] [SIMULATION] Simulated packet loss
+[2025-03-20 11:05:07.447] [SIMULATION] Simulated connection failure
+[2025-03-20 11:05:08.448] [RECONNECT] Attempting reconnect in 2s
+[2025-03-20 11:05:10.448] [CONNECT] Connected to server
+[2025-03-20 11:05:10.449] [SIMULATION] Simulated packet loss
+[2025-03-20 11:05:11.449] [SIMULATION] Simulated variable latency: 138ms
+[2025-03-20 11:05:11.587] [SIMULATION] Bandwidth limited send: 0.03s
+[2025-03-20 11:05:11.613] [SEND] Sent message: Hello, Server! (Attempt 5)
+[2025-03-20 11:05:11.751] [RECEIVE] Received response: Hello, Server! (Attempt 5)
+[2025-03-20 11:05:12.752] [SIMULATION] Simulated packet loss
+[2025-03-20 11:05:13.949] [CLOSE] Connection closed
+[2025-03-20 11:09:35.898] [CONNECT] Connected to server
+[2025-03-20 11:09:35.999] [SEND] Sent message: Hello, Server!
+[2025-03-20 11:09:36.099] [RECEIVE] Received response: Hello, Server!
